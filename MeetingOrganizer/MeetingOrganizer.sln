@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingOrganizer.DAL", "MeetingOrganizer.DAL\MeetingOrganizer.DAL.csproj", "{8B6351B9-8DC0-4F9E-A932-5B547159631A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingOrganizer.UI", "MeetingOrganizer.UI\MeetingOrganizer.UI.csproj", "{4743C841-6733-4166-AE62-61896AF2387B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6351B9-8DC0-4F9E-A932-5B547159631A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6351B9-8DC0-4F9E-A932-5B547159631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6351B9-8DC0-4F9E-A932-5B547159631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6351B9-8DC0-4F9E-A932-5B547159631A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4743C841-6733-4166-AE62-61896AF2387B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4743C841-6733-4166-AE62-61896AF2387B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4743C841-6733-4166-AE62-61896AF2387B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4743C841-6733-4166-AE62-61896AF2387B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

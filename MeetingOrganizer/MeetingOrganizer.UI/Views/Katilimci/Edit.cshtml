@@ -1,0 +1,51 @@
+﻿@model MeetingOrganizer.DAL.Katilimci
+@{
+    ViewBag.Title = "Edit";
+    List<SelectListItem> ToplantiLists = (List<SelectListItem>)ViewData["Liste"];
+}
+
+<h2>Katılımcı Düzenle</h2>
+
+@using (Html.BeginForm())
+{
+
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <h4>Katılımcı</h4> <br />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+
+        <div class="form-group">
+            <div class="col-md-10">
+
+                @Html.LabelFor(model => model.Ad, htmlAttributes: new { @class = "control-label-col-md-2" })
+                @Html.EditorFor(model => model.Ad, new { htmlAttributes = new { @class = "form-control" } })<br />
+                @Html.ValidationMessageFor(model => model.Ad, "", new { @class = "text-deger" })
+            </div>
+            <div class="col-md-10">
+
+                @Html.LabelFor(model => model.Soyad, htmlAttributes: new { @class = "control-label-col-md-2" })
+                @Html.EditorFor(model => model.Soyad, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Soyad, "", new { @class = "text-deger" })
+            </div>
+
+            <div class="col-md-10">
+
+                <br />
+                @Html.DropDownListFor(model => model.ToplantiID, ToplantiLists, "Katılmak istediğiniz toplantıyı Seçin")
+
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Güncelle" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    <div>
+        @Html.ActionLink("Katılımcı Listesi", "Index")
+    </div>
+
+
+}

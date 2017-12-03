@@ -1,0 +1,14 @@
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\MeetingOrganizer.DAL.dll.config
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\MeetingOrganizer.DAL.dll
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\MeetingOrganizer.DAL.pdb
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.dll
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.pdb
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.Migrations.Intializer.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.csproj.GenerateResource.Cache
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.Migrations.v2.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\EnesAys\MeetingOrganizer\MeetingOrganizer.DAL\obj\Debug\MeetingOrganizer.DAL.Migrations.v3.resources

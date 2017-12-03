@@ -1,0 +1,48 @@
+﻿@model MeetingOrganizer.DAL.Katilimci
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h>Silmek istediğinize Emiin Misiniz?</h>
+<div>
+    <h4>Katılımcı</h4>
+    <br />
+    <dl class="dl-horizontal">
+        @*Listelemek İçin*@
+        <dt>
+            @Html.DisplayNameFor(model => model.Ad)
+            @*dt tanımlamak için*@
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ad)
+            @*dd açıklamak için*@
+
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Soyad)
+
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Soyad)
+
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Toplanti.Konu)
+
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Toplanti.Konu)
+
+        </dd>
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" />
+            @Html.ActionLink("Katılımcı Listesi", "Index")
+        </div>
+    }
+</div>

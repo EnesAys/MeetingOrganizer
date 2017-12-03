@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MeetingOrganizer.DAL.Katilimci>
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Toplantı</h2>
+
+<div>
+    <h4>Katılımcılar</h4>
+    <br />
+    <dl class="dl-horizontal">
+        @foreach (var item in Model)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.Ad)
+
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => item.Ad)
+            </dd>
+     
+            <dt>
+                @Html.DisplayNameFor(model => model.Soyad)
+
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => item.Soyad)
+            </dd>
+            <br />
+        }
+
+
+    </dl>
+
+</div>
+<p>
+
+    @Html.ActionLink("Toplantı Listesi", "Index")
+</p>

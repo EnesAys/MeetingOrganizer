@@ -1,0 +1,56 @@
+﻿@model MeetingOrganizer.DAL.Toplanti
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Toplantı Ekle</h2>
+
+@using (Html.BeginForm())
+{
+
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Toplantı</h4> <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <div class="col-md-10">
+
+                @Html.LabelFor(model => model.Konu, htmlAttributes: new { @class = "control-label-col-md-2" })
+                @Html.EditorFor(model => model.Konu, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Konu, "", new { @class = "text-deger" })<br />
+
+            </div>
+            <div class="col-md-10">
+
+                @Html.LabelFor(model => model.T_Tarih, htmlAttributes: new { @class = "control-label-col-md-2" })
+                @Html.EditorFor(model => model.T_Tarih, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.T_Tarih, "", new { @class = "text-deger" })
+            </div>
+
+            <div class="col-md-10">
+
+                @Html.LabelFor(model => model.BaslangicSaat, htmlAttributes: new { @class = "control-label-col-md-2" })
+                @Html.EditorFor(model => model.BaslangicSaat, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.BaslangicSaat, "", new { @class = "text-deger" })
+            </div>
+            <div class="col-md-10">
+
+                @Html.LabelFor(model => model.BitisSaat, htmlAttributes: new { @class = "control-label-col-md-2" })
+                @Html.EditorFor(model => model.BitisSaat, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.BitisSaat, "", new { @class = "text-deger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Oluştur" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    <div>
+        @Html.ActionLink("Toplantı Listesi", "Index")
+    </div>
+
+
+
+}
